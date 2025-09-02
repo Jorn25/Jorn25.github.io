@@ -37,8 +37,8 @@ a {
  * Styling the article title.
  */
 .article h1 {
-  font-size: 1.8rem;  /* Larger font size for the title */
-  color: #333;        /* Darker color for contrast */
+  font-size: 2.4rem;  /* Larger font size for the title */
+  color: #000000;        /* Darker color for contrast */
   margin: 0;          /* Removes default margin */
 }
 
