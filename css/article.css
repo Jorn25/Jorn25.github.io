@@ -11,7 +11,7 @@
 
 .aside {
  background-color: #c9c9c9;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;    
 }
 
@@ -82,5 +82,16 @@ a {
   margin: 0;        /* Removes default margin */
   font-size: 1rem;  /* Slightly larger font for clarity */
   color: #444;      /* Neutral dark text */
+}
+
+.webtecbilder {
+  border-radius: 8px;  
+  width: 250px; 
+  height: 50%;
+}
+
+/*Koden som gäller för listan med info om webtec på "about.html" */
+.Inehåll {
+padding: 10px;
 }
 
