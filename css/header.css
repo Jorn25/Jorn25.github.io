@@ -50,7 +50,7 @@
   justify-content: space-between; /* Place items at both ends of the header */
   align-items: center;            /* Vertically align items to the center */
   padding: 1rem 2rem;             /* Add spacing inside the header (1rem top/bottom, 2rem left/right) */
-  background-color: #eaf5ea;    /* Set a light green background color */
+  background-color: #caffca;    /* Set a light green background color */
   border-bottom: 2px solid #2e8b57;   /* Add a forest green border at the bottom */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   /* Apply a subtle shadow for a slight 3D effect */
 }
