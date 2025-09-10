@@ -107,10 +107,13 @@
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 817px) {
  .webtecbilder { 
   width: auto; 
   height: 541px;
+}
+.aside {
+  margin: auto;
 }
 
 }
@@ -124,5 +127,4 @@
  .footer-triptych { flex-wrap: wrap; }
  .footer-column { flex: 1 1 100%; text-align: center; }
  
-
 }
