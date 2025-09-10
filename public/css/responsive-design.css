@@ -64,6 +64,14 @@
 
 /*Allt ovan har med headern att göra*/
 
+/* Nu gör jag lite kod för att bilden på me.html inte ska bli konstig på mindre skärmar.*/
+
+@media (max-width: 550px) {
+  .figure img {
+ margin-top: 50px;
+  }
+}
+
 /*Kommande kod  gäller för report.html och gör den layouten  responsiv*/
 
 /* Row layout using flexbox */
