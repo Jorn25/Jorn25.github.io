@@ -105,12 +105,16 @@
   .cols-3 .main  { order: 1; }
   .cols-3 .aside{ order: 2; }
   .cols-3 .aside { order: 2; }
+  
 }
 
 @media (max-width: 947px) {
  .webtecbilder { 
   width: auto; 
   height: 599px;
+}
+.aside {
+  margin: auto;
 }
 
 }
@@ -120,9 +124,7 @@
   width: auto; 
   height: 541px;
 }
-.aside {
-  margin: auto;
-}
+
 
 }
 
