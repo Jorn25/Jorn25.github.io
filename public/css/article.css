@@ -1,0 +1,96 @@
+
+.article {
+  background-color: #c9c9c9; /* Light background for better readability */
+  border: 1px solid #ddd;      /* Subtle border to separate it from other content */
+  border-radius: 8px;          /* Rounded corners for a modern look */
+  padding: 1.5rem;             /* Space around the content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+}
+
+.aside {
+ background-color: #c9c9c9;
+  padding: 1rem;
+  border-radius: 8px;    
+}
+
+.Innehållsförteckning{
+margin-top: 20px;
+  font-family: 'Comic Sans MS', cursive;
+  
+}
+
+a {
+  color: rgb(87, 87, 255);
+}
+
+/**
+ * Styling för header section.
+ */
+.article header {
+  border-bottom: 2px solid #ccc; 
+  padding-bottom: 0.5rem;        
+  margin-bottom: 1rem;         
+}
+
+/**
+ * Styling för article title.
+ */
+.article h1 {
+  font-size: 2.4rem;  
+  color: #000000;   
+  margin: 0;         
+}
+
+/**
+ * Styling för författar information.
+ */
+.article .author {
+  font-size: 0.9rem; 
+  color: #555;      
+  margin-top: 0.5rem;
+}
+
+/**
+ * Style för paragrafer.
+ */
+.article p {
+  line-height: 1.6;   
+  margin-bottom: 1rem; 
+}
+
+
+/**
+ * Style till footer
+ */
+.article .byline {
+  border-top: 2px solid #ccc;  
+  padding-top: 1rem;           
+  margin-top: 1rem;          
+  display: flex;              
+  align-items: center;          
+  gap: 1rem;                  
+}
+
+.article .byline img {
+  border-radius: 50%;         
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+/* Style  till footer text */
+.article .byline p {
+  margin: 0;        
+  font-size: 1rem; 
+  color: #444;    
+}
+
+.webtecbilder {
+  border-radius: 8px;  
+  width: 425px; 
+  height: 100%;
+}
+
+/*Koden som gäller för listan med info om webtec på "about.html" */
+.Inehåll {
+padding: 10px;
+}
+

@@ -1,0 +1,23 @@
+
+
+.wrap {
+  display: flex;  
+  flex-wrap: wrap; 
+  gap: 0.5rem;
+}
+
+.main {
+  flex: 3;         
+}
+
+
+.wrap {
+  background-color: white; 
+}
+
+.main {
+  padding: 1rem;              
+  border-radius: 8px;          
+   background-color: #c9c9c9;
+}
+

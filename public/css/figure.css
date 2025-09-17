@@ -1,0 +1,22 @@
+
+.figure {
+  margin: 1rem;       /*Utrymme runt figuren */
+}
+
+.figure img {
+  max-width: 100%;    /* Gör att  bilderna är responsiva */
+  display: block;    
+}
+
+.figure figcaption {
+  font-size: 0.9rem; 
+  color: #777;       
+  text-align: center; 
+  margin-top: 0.5rem;
+}
+
+.figure.right {
+  float: right;    /*Ser till att figuren flyter till höger*/
+  margin-right: 0; /*Ser till att det inte blir något tomt utrymme till höger */
+  margin-top: -71px;
+}
