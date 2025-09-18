@@ -1,0 +1,144 @@
+/* Header as a flex container with two columns */
+.siteheader {
+  justify-content: space-between;
+  align-items: center;           
+  padding: 10px 20px;           
+}
+
+/* Right column - navigation bar */
+.navbar {
+  position: relative;              
+}
+
+/* Navigation links displayed in a row */
+.nav-links {
+  list-style: none;              
+  display: flex;                 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;             
+}
+
+/* Hamburger menu button */
+.menu-toggle {
+  display: none;                  
+  background: none;               
+  border: none;                  
+  font-size: 1.8em;              
+  color: rgb(0, 0, 0);           
+  cursor: pointer;                
+}
+
+/* Responsive styles: when screen is smaller than 800px */
+@media (max-width: 1090px) {
+  .menu-toggle {
+    display: block;               
+  }
+
+  .nav-links {
+    display: none;                 
+    flex-direction: column;        
+    position: fixed;             
+    top: 70px;                       
+    left: 0;                     
+    width: 100%;                  
+    height: 100vh;                
+        background-color: rgba(0, 0, 0, 0); 
+    backdrop-filter: blur(8px);   
+    -webkit-backdrop-filter: blur(8px); 
+    padding-top: 60px;           
+    z-index: 999;                 
+  }
+
+  .nav-links li {
+    margin: 20px auto;           
+    text-align: center;
+  }
+
+  .nav-links.show {
+    display: flex;                 
+  }
+
+  .siteheader nav a {
+        text-decoration: none;
+        color: #f8f8f8 !important;
+        background-color: rgba(0, 0, 0, 0.397);
+        padding: 5px 10px;
+        border-radius: 25px;
+        font-size: 2.3rem;
+        font-weight: bold;
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+}
+
+/*Allt ovan har med headern att göra*/
+
+/* Nu gör jag lite kod för att bilden på me.html inte ska bli konstig på mindre skärmar.*/
+@media (max-width: 550px) {
+  .figure img {
+    margin-top: 50px;
+  }
+}
+
+/*Kommande kod gäller för report.html och gör den layouten responsiv*/
+
+/* Row layout using flexbox */
+.row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* 3 columns: main 50%, each aside 25% */
+.cols-1 .main {
+  flex: 1 1 100%;
+}
+.cols-1 .aside {
+  flex: 1 1 25%;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 800px) {
+  .cols-1 { flex-wrap: wrap; }
+  .cols-1 .main  { order: 1; }
+  .cols-1 .aside { order: 2; }
+}
+
+/*Slut på den koden här*/
+
+/*Följande kod gäller för responsivitet på about.html sidan*/
+@media (max-width: 1570px) {
+  .cols-3 { flex-wrap: wrap; }
+  .cols-3 .main { flex: 1 100%; }
+  .cols-3 .main  { order: 1; }
+  .cols-3 .aside{ order: 2; }
+  .cols-3 .aside { order: 2; }
+}
+
+@media (max-width: 947px) {
+ .webtecbilder { 
+  width: auto; 
+  height: 599px;
+ }
+ .aside {
+  margin: auto;
+ }
+}
+
+@media (max-width: 817px) {
+ .webtecbilder { 
+  width: auto; 
+  height: 541px;
+ }
+}
+
+/*Här tar den koden slut*/
+
+/*Nu kommer koden för att göra om footern till att vara responsiv*/
+@media (max-width: 800px) {
+ .footer-triptych { flex-wrap: wrap; }
+ .footer-column { flex: 1 1 100%; text-align: center; }
+}

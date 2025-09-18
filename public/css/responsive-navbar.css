@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header som flex container med 2 columns */
+.header {
+  display: flex;                 
+  justify-content: space-between; 
+  align-items: center;          
+  padding: 10px 20px;            
+  background-color: #333;     
+  color: white;                 
+}
+
+/* Left column - logo */
+.logo {
+  font-size: 1.5em;            
+}
+
+/* Right column - navigation bar */
+.navbar {
+  position: relative;              
+}
+
+/* Navigation links displayed in a row */
+.nav-links {
+  list-style: none;              
+  display: flex;                  
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;               
+}
+
+.nav-links a {
+  text-decoration: none;         
+  color: white;                  
+}
+
+/* Hamburger menu button */
+.menu-toggle {
+  display: none;                 
+  background: none;              
+  border: none;                  
+  font-size: 1.8em;               
+  color: white;                 
+  cursor: pointer;               
+}
+
+/* Responsive styles: when screen is smaller than 600px */
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;                
+  }
+
+  .nav-links {
+    display: none;                
+    flex-direction: column;      
+    position: absolute;            
+    top: 50px;                    
+    right: 0;
+    background-color: #444;
+    width: 150px;
+    padding: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;                
+  }
+}
+
+/* Responsive style: När skärmen är mindre än 600px */
+@media (max-width: 600px) {
+  .nav-links.show {
+      display: flex;
+ }
+}
